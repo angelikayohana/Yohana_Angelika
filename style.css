@@ -1,0 +1,98 @@
+.jumbotron {
+    padding-top:  4rem ;
+    
+    background-color: #aad0e6;
+    padding-bottom: 0rem;
+}
+
+.btn {
+    background: linear-gradient(90deg, #571ec8, #4cd2d6);
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+
+    
+}
+.project{
+background-color: #aad0e6;
+}
+
+/* Background untuk section My Project */
+.bg-custom {
+    background-color: #aad0e6;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  /* Style kartu project */
+  .project .card {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover effect */
+  .project .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  /* Style kartu project */
+  .galeri .card {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover effect */
+  .galeri .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .gallery-img {
+    border-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover .gallery-img {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+  
+  .card {
+    border-radius: 20px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+  
+    .footer {
+    background-color: #0099ff;
+  }
+
+  /* Tambahan agar section terlihat dan tidak tertutup navbar */
+  #galeri, #project, #contact {
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+
+  .galeri {
+    background-color: #aad0e6;
+  }
+
+  .contact {
+    background-color: #e3f2fd;
+  }
+
+  .img-hover {
+    border-radius: 15px; /* Menambahkan radius pada gambar */
+    transition: transform 0.3s; /* Efek transisi saat hover */
+  }
+  .img-hover:hover {
+    transform: scale(1.05); /* Efek zoom saat hover */
+  }

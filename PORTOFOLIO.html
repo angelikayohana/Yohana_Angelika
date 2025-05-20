@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    section {
+      padding-top: 100px;
+      margin-top: -100px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-primary">
+  <div class="container">
+    <img src="Image/Logo4.png" alt="Logo4" width="50" height="30">
+    <a class="navbar-brand" href="#">&nbsp;PORTFOLIO</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#galeri">Galeri</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#project">Project</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- End Navbar -->
+
+<!-- Jumbotron -->
+<section id="home" class="jumbotron text-center">
+  <br><br><br><br><br><img src="./Image/Foto1.jpg" alt="Foto1" width="200" class="rounded-circle img-thumbnail">
+  <h1 class="display-4">Angelika Yohana Pehe</h1>
+  <p class="lead">Developer | Web Frontend</p>
+  <p>TEKNIK JARINGAN KOMPUTER DAN TELEKOMUNIKASI</p>
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+    PREVIEW CV
+  </button>
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+    SURAT LAMARAN
+  </button>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#ffffff" d="M0,96L40,101.3C80,107,160,117,240,106.7C320,96,400,64,480,58.7C560,53,640,75,720,106.7C800,139,880,181,960,176C1040,171,1120,117,1200,122.7C1280,128,1360,192,1400,224L1440,256L1440,320H0V96Z"/>
+  </svg>
+</section>
+<!-- End Jumbotron -->
+
+<!-- About -->
+<section id="about">
+  <div class="container">
+    <div class="row text-center mb-3">
+      <div class="col">
+        <h2>About Me</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center fs-5">
+      <div class="col-lg-6 mb-3">
+        <img src="./Image/Sertifikat.png" alt="Sertifikat" class="img-fluid">
+      </div>
+      <div class="col-lg-6 mb-3">
+        <p>
+          Hai saya <b>Angelika Yohana Pehe</b>. Saya adalah seorang pelajar di <b>SMKN 1 Kota Kupang</b> dengan jurusan <b>TJKT (Teknik Jaringan Komputer dan Telekomunikasi)</b>.
+          Saya mengikuti kelas <b>Industry GAMELAB</b> dari tanggal 2 Oktober 2024 hingga Juli 2025 di Salatiga, Jawa Tengah.
+        </p>
+      </div>
+    </div>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#aad0e6" d="M0,160L48,160C96,160,192,160,288,138.7C384,117,480,75,576,53.3C672,32,768,32,864,74.7C960,117,1056,203,1152,197.3C1248,192,1344,96,1392,48L1440,0V320H0Z"/>
+  </svg>
+</section>
+<!-- End About -->
+
+<!-- Modal CV -->
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-body p-0">
+        <iframe src="https://drive.google.com/file/d/19gq74hy2oB2n3xdhXh_U0ge4esuuSUS-/preview" width="100%" height="480" allow="autoplay"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <a href="https://drive.google.com/file/d/19gq74hy2oB2n3xdhXh_U0ge4esuuSUS-/view?usp=sharing" class="btn btn-primary">Download</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal -->
+
+
+<!-- Modal Surat Lamaran -->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-body p-0">
+        <iframe src="https://drive.google.com/file/d/1OS2vEXdFv9vRlacRMWzhnhvHBQDEiNbm/preview" width="100%" height="480" allow="autoplay"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <a href="https://drive.google.com/file/d/1OS2vEXdFv9vRlacRMWzhnhvHBQDEiNbm/view?usp=sharing" class="btn btn-primary">Download</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!--End Surat Lamaran-->
+
+
+
+<!-- Galeri -->
+<section id="galeri" class="galeri">
+  <div class="container">
+    <div class="row text-center mt-4">
+      <div class="col">
+        <h2>My Galeri</h2>
+      </div>
+    </div>
+    <div class="row">
+      <!-- Repeat for each gallery item -->
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <img src="./Image/Foto Project 2.jpg.jpeg" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <p class="card-text">Konsultasi Game Flapybird(Tugas Kelompok) (Portfolio)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <img src="./Image/Foto Project 3.jpg (2).jpeg" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <p class="card-text">Konsultasi Kartu Ucapan Natal(Dalam Bentuk Web)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <img src="./Image/Foto Project 1.jpg.jpeg" class="card-img-top" alt="Project 3">
+          <div class="card-body">
+            <p class="card-text">Konsultasi Project Portfolio</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Galeri -->
+
+<!-- Projects -->
+<section id="project" class="project">
+  <div class="container">
+    <div class="row text-center mb-3">
+      <div class="col">
+        <h2>My Project</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <img src="./Image/foto game.PNG" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <p class="card-text">Project 1</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <img src="./Image/foto galeri 1.PNG" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <p class="card-text">Project 2</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <img src="./Image/foto galeri 2.PNG" class="card-img-top" alt="Project 3">
+          <div class="card-body">
+            <p class="card-text">Project 3</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#aad0e6" fill-opacity="1" d="M0,160L60,133.3C120,107,240,53,360,74.7C480,96,600,192,720,245.3C840,299,960,309,1080,282.7C1200,256,1320,192,1380,160L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+<!-- End Projects -->
+
+<!-- Contact -->
+<section id="contact" class="contact py-5">
+  <div class="container">
+    <!-- Judul -->
+    <div class="row text-center mb-3">
+      <div class="col">
+        <h2>Contact Me</h2>
+      </div>
+    </div>
+
+    <!-- Formulir Kontak -->
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-lg-6">
+        <form class="row g-3">
+          <!-- Nama -->
+          <div class="col-12">
+            <label for="inputName" class="form-label">Nama</label>
+            <input type="text" class="form-control" id="inputName" placeholder="Nama lengkap">
+          </div>
+
+          <!-- Email -->
+          <div class="col-12">
+            <label for="inputEmail" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="you@example.com">
+          </div>
+
+          <!-- Pesan -->
+          <div class="col-12">
+            <label for="inputMessage" class="form-label">Pesan</label>
+            <textarea class="form-control" id="inputMessage" rows="4" placeholder="Tulis pesanmu di sini..."></textarea>
+          </div>
+
+          <!-- Tombol Kirim -->
+          <div class="col-12 text-end">
+            <button type="submit" class="btn btn-primary">Kirim</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- End Contact -->
+
+<!-- Footer -->
+<div class="bg-primary text-white text-center py-3">
+  <p>Created by Angelika Yohana Pehe</p>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
