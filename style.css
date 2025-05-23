@@ -96,3 +96,7 @@ background-color: #aad0e6;
   .img-hover:hover {
     transform: scale(1.05); /* Efek zoom saat hover */
   }
+
+body {
+  background-color: #aad0e6;
+}
