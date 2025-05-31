@@ -100,3 +100,43 @@ background-color: #aad0e6;
 body {
   background-color: #aad0e6;
 }
+
+.nama {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #000;
+}
+
+.deskripsi {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.deskripsi .highlight {
+  font-weight: 700;
+  color: hotpink;
+}
+
+.typewriter {
+  font-family: 'Open Sans', sans-serif;
+  color: hotpink;
+  font-weight: 700;
+  overflow: hidden;
+  border-right: 0.15em solid hotpink;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.1em;
+  animation: typing 3s steps(30, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: hotpink }
+}
