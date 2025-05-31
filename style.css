@@ -124,7 +124,7 @@ body {
   color: hotpink;
   font-weight: 700;
   overflow: hidden;
-  border-right: 0.15em solid hotpink;
+  border-right: 0.15em solid Medium Slate Blue;
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: 0.1em;
@@ -138,5 +138,5 @@ body {
 
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: hotpink }
+  50% { border-color:Medium Slate Blue }
 }
