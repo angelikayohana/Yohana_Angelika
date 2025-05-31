@@ -119,24 +119,25 @@ body {
   color: hotpink;
 }
 
+/* Efek animasi typewriter */
 .typewriter {
-  font-family: 'Open Sans', sans-serif;
-  color: hotpink;
-  font-weight: 700;
   overflow: hidden;
-  border-right: 0.15em solid #6747d0Medium Slate Blue;
   white-space: nowrap;
-  margin: 0 auto;
-  letter-spacing: 0.1em;
-  animation: typing 3s steps(30, end), blink-caret 0.75s step-end infinite;
+  border-right: 3px solid #6747d0;
+  animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
+  width: 0;
+  color: #6747d0; /* <-- Warna teks ditambahkan */
+  display: inline-block;
 }
 
+/* Animasi ketik */
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
 }
 
+/* Animasi kedipan kursor */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color:#6747d0Medium Slate Blue }
+  50% { border-color: #6747d0 }
 }
