@@ -136,15 +136,14 @@ body {
   to { width: 100% }
 }
 
-/* Animasi kedipan kursor */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: #6747d0 }
+.blinking-heading {
+  animation: blinkColor 1.5s ease-in-out infinite;
+  font-weight: bold;
 }
 
-<style>
-  #typed-text {
-    color: MediumSlateBlue;
-    font-weight: bold;
-  }
-</style>
+@keyframes blinkColor {
+  0%   { color: MediumSlateBlue; }
+  50%  { color: #ffcce6; } /* pink susu */
+  100% { color: MediumSlateBlue; }
+}
+
