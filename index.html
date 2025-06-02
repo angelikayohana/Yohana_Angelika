@@ -17,6 +17,7 @@
     }
   </style>
 </head>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <body>
 
 <!-- Navbar -->
@@ -55,9 +56,8 @@
   <br><br><br><br><br>
   <img src="Foto1.jpg" alt="Foto1" width="200" class="rounded-circle img-thumbnail">
   <h1 class="nama">Angelika Yohana Pehe</h1>
-  <p class="deskripsi">I'm a <span id="typed-text" class="highlight"></span></p>
+ <p class="deskripsi">I'm a <span id="typed-text" class="highlight"></span></p>
   <p>TEKNIK JARINGAN KOMPUTER DAN TELEKOMUNIKASI</p>
-
   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
     PREVIEW CV
   </button>
@@ -70,15 +70,9 @@
   </svg>
 </section>
 
-<!-- Script Typed.js -->
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <script>
- Typed("#typed-text", {
-    strings: [
-      '<span style="color: MediumSlateBlue;">High School Student</span>',
-      '<span style="color: MediumSlateBlue;">SMK Student</span>',
-      '<span style="color: MediumSlateBlue;">Future Network Engineer</span>'
-    ],
+  var typed = new Typed("#typed-text", {
+    strings: ["High School Student", "SMK Student", "Future Network Engineer"],
     typeSpeed: 50,
     backSpeed: 30,
     backDelay: 1000,
