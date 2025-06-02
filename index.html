@@ -70,11 +70,18 @@
   </svg>
 </section>
 
-<!-- Tambahkan ini sebelum </body> -->
+<!-- HTML -->
+<p class="deskripsi">I'm a <span id="typed-text"></span></p>
+
+<!-- Script Typed.js -->
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <script>
   var typed = new Typed("#typed-text", {
-    strings: ["High School Student", "SMK Student", "Future Network Engineer"],
+    strings: [
+      '<span style="color: MediumSlateBlue;">High School Student</span>',
+      '<span style="color: MediumSlateBlue;">SMK Student</span>',
+      '<span style="color: MediumSlateBlue;">Future Network Engineer</span>'
+    ],
     typeSpeed: 50,
     backSpeed: 30,
     backDelay: 1000,
