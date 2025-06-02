@@ -141,3 +141,10 @@ body {
   from, to { border-color: transparent }
   50% { border-color: #6747d0 }
 }
+
+<style>
+  #typed-text {
+    color: MediumSlateBlue;
+    font-weight: bold;
+  }
+</style>
