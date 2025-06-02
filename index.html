@@ -52,21 +52,35 @@
 
 <!-- Jumbotron -->
 <section id="home" class="jumbotron text-center">
- <br><br> <br><br><img src="Foto1.jpg" alt="Foto1" width="200" class="rounded-circle img-thumbnail">
- <h1 class="nama">Angelika Yohana Pehe</h1>
-  <p class="deskripsi typewriter">I'm a <span class="highlight">High School Student</span></p>
+  <br><br><br><br><br>
+  <img src="./Image/Foto1.jpg" alt="Foto1" width="200" class="rounded-circle img-thumbnail">
+  <h1 class="nama">Angelika Yohana Pehe</h1>
+  <p class="deskripsi">I'm a <span id="typed-text" class="highlight"></span></p>
   <p>TEKNIK JARINGAN KOMPUTER DAN TELEKOMUNIKASI</p>
+
   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
     PREVIEW CV
   </button>
   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
     SURAT LAMARAN
   </button>
+
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
     <path fill="#ffffff" d="M0,96L40,101.3C80,107,160,117,240,106.7C320,96,400,64,480,58.7C560,53,640,75,720,106.7C800,139,880,181,960,176C1040,171,1120,117,1200,122.7C1280,128,1360,192,1400,224L1440,256L1440,320H0V96Z"/>
   </svg>
 </section>
-<!-- End Jumbotron -->
+
+<!-- Tambahkan ini sebelum </body> -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+  var typed = new Typed("#typed-text", {
+    strings: ["High School Student", "SMK Student", "Future Network Engineer"],
+    typeSpeed: 50,
+    backSpeed: 30,
+    backDelay: 1000,
+    loop: true
+  });
+</script>
 
 <!-- About -->
 <section id="about">
